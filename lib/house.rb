@@ -23,9 +23,10 @@ class House
 
   def area
     total_area = 0
-    total_area = @rooms.reduce do |@room.length, @rooms.width|
-      @rooms.length * @rooms.width
-    end
+    total_area = @rooms.area.reduce :+
+    # total_area = @rooms.reduce do |@rooms.length, @rooms.width|
+    #   @rooms.length * @rooms.width
+    # end
   end
 
 end
