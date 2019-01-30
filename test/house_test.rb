@@ -71,6 +71,7 @@ class HouseTest < Minitest::Test
 
     assert_equal 1900, house.area
   end
+  
 #below test is not required in iteration 2.  Just did it for fun.
   # def test_how_rooms_in_house
   #   house = House.new("$400000", "123 sugar lane")
